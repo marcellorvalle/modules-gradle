@@ -1,0 +1,4 @@
+dependencies {
+	implementation project(':feature-runtime') // without it intellij will not run but command line will
+	implementation project(':web')
+}
