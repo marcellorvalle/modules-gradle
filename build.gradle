@@ -36,6 +36,8 @@ allprojects {
 		compileOnly 'org.projectlombok:lombok:1.18.18'
 		annotationProcessor 'org.projectlombok:lombok:1.18.18'
 
+		annotationProcessor 'org.springframework:spring-context-indexer:5.3.5'
+
 		testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	}
 
