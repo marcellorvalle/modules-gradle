@@ -14,6 +14,9 @@ configurations {
 	}
 }
 
+bootJar {
+	mainClass = 'com.mrv.modulesgradle.ModulesMavenApplication'
+}
 
 bootRun {
 	mainClass = 'com.mrv.modulesgradle.ModulesMavenApplication'
