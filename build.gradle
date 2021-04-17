@@ -15,11 +15,11 @@ configurations {
 }
 
 bootJar {
-	mainClass = 'com.mrv.modulesgradle.ModulesMavenApplication'
+	mainClass = 'com.mrv.modulesgradle.ModulesApplication'
 }
 
 bootRun {
-	mainClass = 'com.mrv.modulesgradle.ModulesMavenApplication'
+	mainClass = 'com.mrv.modulesgradle.ModulesApplication'
 }
 
 allprojects {
